@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	float a,b,x
+	cout << "escribir salario" << endl;
+	cin >> a;
+	cout << "escribir salario minimo" << endl;
+	cin >> x;
+	if (a>=2*x) {
+		b = a*0.15;
+	} else {
+		b = a;
+	}
+	cout << "el resultado es: " << b << endl;
+	getch();
+	return 0;
+}
